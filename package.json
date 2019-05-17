@@ -7,6 +7,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "postinstall": "webdriver-manager update --gecko false",
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc",
     "test": "npm run test:headless",
