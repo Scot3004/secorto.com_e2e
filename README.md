@@ -31,3 +31,6 @@ npm install
 ```bash
 npm test
 ```
+
+## Notas del editor
+Si deseas practicar como integrar protractor en tu proyecto, te recomiendo completar el [Workshop de protractor](https://github.com/AgileTestingColombia/workshop-protractor)
