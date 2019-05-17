@@ -1,0 +1,9 @@
+{
+  "name": "secorto_e2e",
+  "version": "0.0.1",
+  "description": "E2E tests for Secorto website",
+  "main": "index.js",
+  "author": "Sergio C. Orozco Torres",
+  "license": "MIT",
+  "private": false
+}
