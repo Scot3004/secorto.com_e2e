@@ -1,9 +1,13 @@
 import { browser } from 'protractor';
 
-describe('This is the first example of protractor', () => {
-  it('should have a title', () => {
-    browser.ignoreSynchronization = true;
-    browser.get('http://www.secorto.com');
-    expect(browser.getTitle()).toEqual('Sergio Orozco Torres');
+describe('Given a person who want to meet Sergio Orozco', () => {
+  describe('when open the home page', () => {
+    beforeEach(() => {
+      browser.get('http://www.secorto.com');
+    });
+
+    it('then should have a title', () => {
+      expect(browser.getTitle()).toEqual('Sergio Orozco Torres');
+    });
   });
 });
