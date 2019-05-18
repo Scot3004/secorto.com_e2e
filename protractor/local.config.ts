@@ -3,7 +3,7 @@ import { reporter } from './helpers/reporter';
 
 export const config: Config = {
   framework: 'jasmine',
-  specs: [ '../test/home.spec.js' ],
+  specs: ['../test/home.spec.js'],
   onPrepare: () => {
     browser.ignoreSynchronization = true;
     reporter();
