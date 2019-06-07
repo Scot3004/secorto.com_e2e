@@ -1,22 +1,21 @@
 # secorto.com e2e
 
-Proyecto de automatización para la Página personal de presentación de Sergio C. Orozco Torres
+Proyecto de automatización seguimiento del [Workshop de protractor](https://github.com/AgileTestingColombia/workshop-protractor)
 
 ## Motivación
 
-Practicar el rol SDET para fortalecer habilidades en automatización y en este caso puntual se usa de ejemplo la página secorto.com
+Practicar el rol SDET para fortalecer habilidades en automatización y en este caso puntual se usa de ejemplo la página secorto.com y la página automationpractice.com
 
 ## Objetivos
 
 ### Objetivo General
 
-Desarrollar un sitio web informativo que demuestre los conocimientos y habilidades en desarrollo web de Sergio Orozco Torres
+Completar los contenidos del workshop para certificar conocimientos en el framework protractor
 
 ### Objetivos específicos
 
-* Automatización de pruebas del sitio web desarrollado el cual a su vez tiene como objetivos:
-    * Página de presentación como desarrollador
-    * Desarrollar blog de las cosas aprendidas
+* Mejorar habilidades de Automatización de pruebas
+* Reforzar conocimientos en selenium
 
 ## Scripts Incluidos
 
@@ -32,5 +31,3 @@ npm install
 npm test
 ```
 
-## Notas del editor
-Si deseas practicar como integrar protractor en tu proyecto, te recomiendo completar el [Workshop de protractor](https://github.com/AgileTestingColombia/workshop-protractor)
