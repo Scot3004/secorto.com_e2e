@@ -6,6 +6,10 @@
   "author": "Sergio C. Orozco Torres",
   "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Scot3004/secorto_e2e.git"
+  },
   "scripts": {
     "postinstall": "webdriver-manager update --gecko false",
     "clean": "rm -rf dist",
@@ -19,10 +23,11 @@
     "@types/jasminewd2": "^2.0.6",
     "@types/node": "^12.0.2",
     "jasmine-spec-reporter": "^4.2.1",
-    "protractor": "^5.4.2",
     "tslint": "^5.16.0",
     "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.4.5"
   },
-  "dependencies": {}
+  "dependencies": {
+    "protractor": "^5.4.2"
+  }
 }
